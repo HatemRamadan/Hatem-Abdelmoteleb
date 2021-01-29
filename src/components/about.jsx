@@ -78,17 +78,18 @@ class About extends React.Component {
       about_me: [
         {
           id: 'first-p-about',
-          content: 'I am an enthusiastic and self-motivated software engineer'
+          content:
+            'I’m an enthusiastic and self-motivated Software Engineer from Cairo, Egypt. I focus on front-end web development to bring the best experience to your users.'
         },
         {
           id: 'second-p-about',
           content:
-            'Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis.'
+            'I pride myself on being able to adapt to any situation that may arise during the lifespan of a project. I thrive under pressure and also look for solutions to difficult problems.'
         },
         {
           id: 'third-p-about',
           content:
-            'Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis.'
+            'I am diligent, conciencious and extremely dedicated to every task that I am given. It is of the utmost importance to me that my clients are satisfied by what I deliver.'
         }
       ]
     };
