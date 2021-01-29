@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "57217ba07438a545e22a357fe0e5e9a3",
+    "revision": "3d0510eaa937a25923a25a72090925bc",
     "url": "/Hatem-Abdelmoteleb/index.html"
   },
   {
-    "revision": "3d4a06d66d78911e6615",
+    "revision": "86973e716d4cf25549af",
     "url": "/Hatem-Abdelmoteleb/static/css/2.46018156.chunk.css"
   },
   {
-    "revision": "fa6a9b51f7114368c48c",
+    "revision": "80a6f6371de2ec06fd50",
     "url": "/Hatem-Abdelmoteleb/static/css/main.4dde3c96.chunk.css"
   },
   {
-    "revision": "3d4a06d66d78911e6615",
-    "url": "/Hatem-Abdelmoteleb/static/js/2.61aeb479.chunk.js"
+    "revision": "86973e716d4cf25549af",
+    "url": "/Hatem-Abdelmoteleb/static/js/2.8b2445a1.chunk.js"
   },
   {
-    "revision": "5e837fa3282e82106f8379a630f1eac4",
-    "url": "/Hatem-Abdelmoteleb/static/js/2.61aeb479.chunk.js.LICENSE.txt"
+    "revision": "9e21b73bc9099a79c5cac4e4bc19e824",
+    "url": "/Hatem-Abdelmoteleb/static/js/2.8b2445a1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fa6a9b51f7114368c48c",
-    "url": "/Hatem-Abdelmoteleb/static/js/main.2290e524.chunk.js"
+    "revision": "80a6f6371de2ec06fd50",
+    "url": "/Hatem-Abdelmoteleb/static/js/main.215a1836.chunk.js"
   },
   {
     "revision": "bbebc22445d4b2566431",

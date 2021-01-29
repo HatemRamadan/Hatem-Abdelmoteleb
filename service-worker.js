@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Hatem-Abdelmoteleb/precache-manifest.ffb4abe41c71962db1139d3baaba937a.js"
+  "/Hatem-Abdelmoteleb/precache-manifest.c052541387eab4ce7cc8c3047f5d6f91.js"
 );
 
 self.addEventListener('message', (event) => {
