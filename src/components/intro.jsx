@@ -1,8 +1,21 @@
 import React from 'react';
+import LogRocket from 'logrocket';
+
 import './stars.scss';
 import Typed from 'react-typed';
 
 class Intro extends React.Component {
+  componentWillMount() {
+    LogRocket.init('rlcodt/portfolio');
+    fetch('https://api.ipify.org?format=jsonp?callback=?', {
+      method: 'GET',
+      headers: {}
+    })
+      .then(res => {
+        return res.text();
+      })
+      .then(ip => console.log('IP', ip));
+  }
   render() {
     return (
       // <div id="home" className="intro route bg-image " style={{backgroundImage: "url("+bigImage+")"}}>
