@@ -1,20 +1,39 @@
 import React from 'react';
 import LogRocket from 'logrocket';
+import { deviceDetect } from 'react-device-detect';
+import ipLocation from 'iplocation';
 
 import './stars.scss';
 import Typed from 'react-typed';
+import Firebase from '../Firebase';
 
 class Intro extends React.Component {
-  componentWillMount() {
+  async componentWillMount() {
     LogRocket.init('rlcodt/portfolio');
-    fetch('https://api.ipify.org?format=jsonp?callback=?', {
-      method: 'GET',
-      headers: {}
-    })
-      .then(res => {
-        return res.text();
-      })
-      .then(ip => console.log('IP', ip));
+    const response = await fetch(
+      'https://api.ipify.org?format=jsonp?callback=?',
+      {
+        method: 'GET',
+        headers: {}
+      }
+    );
+    const ip = await response.text();
+    console.log('IP', ip);
+    let location = '';
+    try {
+      location = await ipLocation(ip);
+    } catch (err) {
+      console.log('could not get loc', err);
+    }
+
+    await Firebase.firestore()
+      .collection('visitors')
+      .add({
+        ip,
+        timestamp: new Date(),
+        info: deviceDetect(),
+        ...(location && { location })
+      });
   }
   render() {
     return (
