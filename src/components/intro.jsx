@@ -18,7 +18,7 @@ class Intro extends React.Component {
       }
     );
     const ip = await response.text();
-    console.log('IP', ip);
+    // console.log('IP', ip);
     let location = '';
     try {
       location = await ipLocation(ip);

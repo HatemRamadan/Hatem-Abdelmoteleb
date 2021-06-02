@@ -764,13 +764,55 @@ PORTFOLIO
 TESTIMONIALS
 */
 
+.testimonials {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  height: 600px;
+}
+
 .testimonials .owl-carousel .owl-item img {
   width: auto;
 }
 
 .testimonial-box {
-  color: #fff;
+  color: #1e1e1e;
+  background-color: white;
+  max-width: 800px;
+  height: max-content;
   text-align: center;
+  box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+  font-family: 'Work Sans', sans-serif;
+  padding: 50px 0;
+}
+
+.center {
+  justify-content: center;
+}
+
+.testimonial {
+  margin: 0 35px;
+  font-size: 21px;
+}
+
+.quotations {
+  font-size: 100px;
+  font-weight: 900;
+  line-height: 0px;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+.client-name {
+  margin-top: 60px;
+  font-size: 24px;
+  color: #0062d3;
+}
+
+.client-profession {
+  color: grey;
+  font-size: 16;
+  margin-bottom: 20px;
 }
 
 .testimonial-box .author-test {
