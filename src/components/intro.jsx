@@ -1,4 +1,5 @@
 import React from 'react';
+import axios from 'axios';
 import LogRocket from 'logrocket';
 import { deviceDetect } from 'react-device-detect';
 import ipLocation from 'iplocation';
@@ -10,12 +11,10 @@ import Firebase from '../Firebase';
 class Intro extends React.Component {
   async componentWillMount() {
     LogRocket.init('rlcodt/portfolio');
-    const response = await fetch(
-      'https://api.ipify.org?format=jsonp?callback=?',
-      {
-        method: 'GET',
-        headers: {}
-      }
+    const res = await axios.get('https://geolocation-db.com/json/')
+    console.log(res.data);
+    const response = await axios.get(
+      'https://curlmyip.org/'
     );
     const ip = await response.text();
     // console.log('IP', ip);
@@ -52,8 +51,8 @@ class Intro extends React.Component {
                 <strong className="text-slider">
                   <Typed
                     strings={[
-                      'Front End Developer',
-                      'React Js Developer',
+                      'Front End Engineer',
+                      'Full Stack Engineer',
                       'Software Engineer'
                     ]}
                     typeSpeed={80}

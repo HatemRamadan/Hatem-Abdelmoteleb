@@ -7,8 +7,14 @@ class About extends React.Component {
     this.state = {
       skills: [
         {
-          id: 'ReactJS_skill',
-          content: 'ReactJS',
+          id: 'Node_skill',
+          content: 'Node.js',
+          porcentage: '80%',
+          value: '80'
+        },
+        {
+          id: 'React_skill',
+          content: 'React',
           porcentage: '80%',
           value: '80'
         },
@@ -31,24 +37,6 @@ class About extends React.Component {
           value: '80'
         },
         {
-          id: 'JavaSE_skill',
-          content: 'Java SE',
-          porcentage: '80%',
-          value: '80'
-        },
-        {
-          id: 'JavaEE_skill',
-          content: 'Java EE',
-          porcentage: '60%',
-          value: '60'
-        },
-        {
-          id: 'SpringBoot_skill',
-          content: 'Spring Boot',
-          porcentage: '40%',
-          value: '40'
-        },
-        {
           id: 'OOP_skill',
           content: 'OOP',
           porcentage: '80%',
@@ -63,6 +51,18 @@ class About extends React.Component {
         {
           id: 'MongoDB_skill',
           content: 'MongoDB',
+          porcentage: '60%',
+          value: '60'
+        },
+        {
+          id: 'PostgreSQL_skill',
+          content: 'PostgreSQL',
+          porcentage: '60%',
+          value: '60'
+        },
+        {
+          id: 'GCP_skill',
+          content: 'GCP',
           porcentage: '50%',
           value: '50'
         },
@@ -72,6 +72,12 @@ class About extends React.Component {
           porcentage: '60%',
           value: '60'
         },
+        {
+          id: 'Jest_skill',
+          content: 'Jest',
+          porcentage: '80%',
+          value: '80'
+        },
         { id: 'HTML5_skill', content: 'HTML5', porcentage: '80%', value: '80' },
         { id: 'CSS3_skill', content: 'CSS3', porcentage: '70%', value: '70' }
       ],
@@ -79,12 +85,12 @@ class About extends React.Component {
         {
           id: 'first-p-about',
           content:
-            'I’m an enthusiastic and self-motivated Software Engineer from Cairo, Egypt. I focus on front-end web development to bring the best experience to your users.'
+          'Results-driven Senior Software Engineer with 5+ years of experience in full-stack development, specializing in Node.js, React.js, Next.js, and GCP.'
         },
         {
           id: 'second-p-about',
           content:
-            'I pride myself on being able to adapt to any situation that may arise during the lifespan of a project. I thrive under pressure and also look for solutions to difficult problems.'
+            'Adept at building scalable web applications, optimizing infrastructure, and integrating complex APIs. Passionate about developing robust, user-friendly solutions while ensuring performance, security, and maintainability. Strong problem-solver with experience working remotely in cross-functional, multinational teams.'
         },
         {
           id: 'third-p-about',
