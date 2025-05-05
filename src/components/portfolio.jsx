@@ -22,6 +22,14 @@ import proj3_3 from '../img/proj3_3.png';
 import proj4 from '../img/proj4.png';
 import proj4_2 from '../img/proj4_2.png';
 
+import proj5 from '../img/proj5.png';
+import proj5_2 from '../img/proj5_2.png';
+import proj5_3 from '../img/proj5_3.png';
+import proj5_4 from '../img/proj5_4.png';
+import proj5_5 from '../img/proj5_5.png';
+import proj5_6 from '../img/proj5_6.png';
+import proj5_7 from '../img/proj5_7.png';
+
 const PROJECTS = [
   {
     title: 'Blue Mango Studios',
@@ -46,6 +54,12 @@ const PROJECTS = [
     link: 'https://linkreader.column.us/display/obituaries',
     imgs: [proj4, proj4_2],
     stack: 'NextJs SSR Node.js Firebase GCP HTML5 TailwindCSS'
+  },
+  {
+    title: 'NoNerds',
+    link: 'https://nonerds-web.vercel.app',
+    imgs: [proj5, proj5_2, proj5_3, proj5_4, proj5_5, proj5_6, proj5_7],
+    stack: 'ReactJs NodeJs Typescript HTML5 TailwindCSS'
   }
 ]
 class Portfolio extends React.Component {
