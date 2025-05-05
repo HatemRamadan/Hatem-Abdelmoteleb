@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Hatem-Abdelmoteleb/static/css/main.54fa71c5.chunk.css",
-    "main.js": "/Hatem-Abdelmoteleb/static/js/main.1094c52f.chunk.js",
-    "main.js.map": "/Hatem-Abdelmoteleb/static/js/main.1094c52f.chunk.js.map",
+    "main.css": "/Hatem-Abdelmoteleb/static/css/main.eafd8238.chunk.css",
+    "main.js": "/Hatem-Abdelmoteleb/static/js/main.696d163c.chunk.js",
+    "main.js.map": "/Hatem-Abdelmoteleb/static/js/main.696d163c.chunk.js.map",
     "runtime-main.js": "/Hatem-Abdelmoteleb/static/js/runtime-main.63f405de.js",
     "runtime-main.js.map": "/Hatem-Abdelmoteleb/static/js/runtime-main.63f405de.js.map",
     "static/css/2.bdd8befd.chunk.css": "/Hatem-Abdelmoteleb/static/css/2.bdd8befd.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.0ab49ee5.chunk.js.map": "/Hatem-Abdelmoteleb/static/js/2.0ab49ee5.chunk.js.map",
     "index.html": "/Hatem-Abdelmoteleb/index.html",
     "static/css/2.bdd8befd.chunk.css.map": "/Hatem-Abdelmoteleb/static/css/2.bdd8befd.chunk.css.map",
-    "static/css/main.54fa71c5.chunk.css.map": "/Hatem-Abdelmoteleb/static/css/main.54fa71c5.chunk.css.map",
+    "static/css/main.eafd8238.chunk.css.map": "/Hatem-Abdelmoteleb/static/css/main.eafd8238.chunk.css.map",
     "static/js/2.0ab49ee5.chunk.js.LICENSE.txt": "/Hatem-Abdelmoteleb/static/js/2.0ab49ee5.chunk.js.LICENSE.txt",
     "static/media/earth.a08c82a6.jpg": "/Hatem-Abdelmoteleb/static/media/earth.a08c82a6.jpg",
     "static/media/font-awesome.css": "/Hatem-Abdelmoteleb/static/media/fontawesome-webfont.f691f37e.woff",
@@ -34,13 +34,20 @@
     "static/media/proj3_2.3ab292d4.png": "/Hatem-Abdelmoteleb/static/media/proj3_2.3ab292d4.png",
     "static/media/proj3_3.8321de1f.png": "/Hatem-Abdelmoteleb/static/media/proj3_3.8321de1f.png",
     "static/media/proj4.74c1d57e.png": "/Hatem-Abdelmoteleb/static/media/proj4.74c1d57e.png",
-    "static/media/proj4_2.f47a0bc2.png": "/Hatem-Abdelmoteleb/static/media/proj4_2.f47a0bc2.png"
+    "static/media/proj4_2.f47a0bc2.png": "/Hatem-Abdelmoteleb/static/media/proj4_2.f47a0bc2.png",
+    "static/media/proj5.7035cc3a.png": "/Hatem-Abdelmoteleb/static/media/proj5.7035cc3a.png",
+    "static/media/proj5_2.7de5aae5.png": "/Hatem-Abdelmoteleb/static/media/proj5_2.7de5aae5.png",
+    "static/media/proj5_3.140d6cd9.png": "/Hatem-Abdelmoteleb/static/media/proj5_3.140d6cd9.png",
+    "static/media/proj5_4.5e77fb6c.png": "/Hatem-Abdelmoteleb/static/media/proj5_4.5e77fb6c.png",
+    "static/media/proj5_5.316f2139.png": "/Hatem-Abdelmoteleb/static/media/proj5_5.316f2139.png",
+    "static/media/proj5_6.0f720447.png": "/Hatem-Abdelmoteleb/static/media/proj5_6.0f720447.png",
+    "static/media/proj5_7.f59df425.png": "/Hatem-Abdelmoteleb/static/media/proj5_7.f59df425.png"
   },
   "entrypoints": [
     "static/js/runtime-main.63f405de.js",
     "static/css/2.bdd8befd.chunk.css",
     "static/js/2.0ab49ee5.chunk.js",
-    "static/css/main.54fa71c5.chunk.css",
-    "static/js/main.1094c52f.chunk.js"
+    "static/css/main.eafd8238.chunk.css",
+    "static/js/main.696d163c.chunk.js"
   ]
 }
